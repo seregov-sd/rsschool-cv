@@ -2,13 +2,250 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,1,0"/>
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,500,1,0"/>
+    <!--    Google Fonts    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+    <!--       Style        -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/progress-bar.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>CV</title>
 </head>
 <body>
-    <h1>Sergey Seregov</h1>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <nav class="menu">
+                <button class="menu__button btn btn--visibility">
+                    <span class="btn__icon material-symbols-outlined">menu</span>
+                </button>
+                <ul class="menu__list">
+                    <li class="menu__item">
+                        <a class="menu__link" href="#contact">Contacts</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#about">About My</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#skill">Skills</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#task">Code Example</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#education">Education</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link" href="#language">Languages</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="container">
+        <div class="main__inner">
+            <section class="section-left">
+                <div class="photo section-left__photo--visibility">
+                    <div class="photo__frame">
+                        <img class="photo__img" src="img/my_avatar_github.png" alt="my_avatar">
+                    </div>
+                </div>
+                <div class="contact" id="contact">
+                    <h2 class="title">Contact</h2>
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <span class="contact__icon contact__icon-pin material-symbols-rounded">pin_drop</span>
+                            <span class="contact__text">Gomel, Belarus</span>
+                        </li>
+                        <li class="contact__item">
+                            <span class="contact__icon contact__icon-drafts material-symbols-rounded drafts">drafts</span>
+                            <span class="contact__text">seregov.sd@yandex.by</span>
+                        </li>
+                        <li class="contact__item">
+                            <span class="contact__icon contact__icon-githab">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24">
+                                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                                </svg>
+                            </span>
+                            <a class="contact__link link" href="https://github.com/seregov-sd"
+                               target="_blank">github.com/seregov-sd</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="education" id="education">
+                    <h2 class="title">Education</h2>
+                    <ul class="education__list">
+                        <li class="education__item">
+                            <h3 class="education__subtitle">University</h3>
+                            <a class="education__link" href="https://www.gsu.by/" target="_blank">GSU named after F.
+                                Skorina</a>
+                        </li>
+                        <li class="education__item">
+                            <h3 class="education__subtitle">Lectures</h3>
+                            <a class="education__link"
+                               href="https://www.youtube.com/watch?v=Sy_wba7l1UU&list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5"
+                               target="_blank">CS50 Lectures</a>
+                        </li>
+                        <li class="education__item">
+                            <h3 class="education__subtitle">Online Course</h3>
+                            <a class="education__link" href="https://htmlacademy.ru/" target="_blank">Course "HTML
+                                Academy"</a>
+                        </li>
+                        <li class="education__item">
+                            <h3 class="education__subtitle">Training Center</h3>
+                            <a class="education__link" href="https://itclass.by/software" target="_blank">Training
+                                Center "IT Class"</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section-right">
+                <div class="name">
+                    <div class="photo section-right__photo--visibility">
+                        <div class="photo__frame">
+                            <img class="photo__img" src="img/my_avatar_github.png" alt="my_avatar">
+                        </div>
+                    </div>
+                    <h1 class="name__firstname">Sergey<span class="name__lastname">Seregov</span></h1>
+                    <span class="name__text">RS School Student</span>
+                </div>
+                <div class="about" id="about">
+                    <h2 class="title">About My</h2>
+                    <p class="about__text">I am currently a fourth year university student majoring in information
+                        technology software. I like to study and learn something new. I aspire to be a full stack
+                        developer. I like learning both frontend and backend. I do not stop at the goal, I bring any
+                        work to the end. I enjoy learning new things and constantly developing.</p>
+                </div>
+                <div class="skill" id="skill">
+                    <h2 class="title">Skills</h2>
+                    <ul class="skill__list">
+                        <li class="skill__item">
+                            <div class="skill__subtitle">HTML</div>
+                            <div class="skill__progress progress-container">
+                                <div class="progress progress-ninety"></div>
+                            </div>
+                        </li>
+                        <li class="skill__item">
+                            <div class="skill__subtitle">CSS</div>
+                            <div class="skill__progress progress-container">
+                                <div class="progress progress-eighty"></div>
+                            </div>
+                        </li>
+                        <li class="skill__item">
+                            <div class="skill__subtitle">JavaScript</div>
+                            <div class="skill__progress progress-container">
+                                <div class="progress progress-sixty"></div>
+                            </div>
+                        </li>
+                        <li class="skill__item">
+                            <div class="skill__subtitle">C, C++</div>
+                            <div class="skill__progress progress-container">
+                                <div class="progress progress-sixty"></div>
+                            </div>
+                        </li>
+                        <li class="skill__item">
+                            <div class="skill__subtitle">Java</div>
+                            <div class="skill__progress progress-container">
+                                <div class="progress progress-seventy"></div>
+                            </div>
+                        </li>
+                        <li class="skill__item">
+                            <div class="skill__subtitle">VS Code</div>
+                            <div class="skill__progress progress-container">
+                                <div class="progress progress-sixty"></div>
+                            </div>
+                        </li>
+                        <li class="skill__item">
+                            <div class="skill__subtitle">Intellij IDEA</div>
+                            <div class="skill__progress progress-container">
+                                <div class="progress progress-fifty"></div>
+                            </div>
+                        </li>
+                        <li class="skill__item">
+                            <div class="skill__subtitle">Git</div>
+                            <div class="skill__progress progress-container">
+                                <div class="progress progress-fifty"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="task" id="task">
+                    <h2 class="title">Code Example</h2>
+                    <pre class="task__pre">
+<code class="task__code">public class Multiply {
+    public static Double multiply(Double a, Double b) {
+        return a * b;
+    }
+}</code>
+</pre>
+                </div>
+                <div class="language" id="language">
+                    <h2 class="title">Languages</h2>
+                    <ul class="language__list">
+                        <li class="language__item">
+                            <span class="language__rus">Russian</span>
+                            <span class="language__skill">Native</span>
+                        </li>
+                        <li class="language__item">
+                            <span class="language__eng">English</span>
+                            <span class="language__skill">A1</span>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <ul class="footer__list">
+                <li class="footer__item footer__item-github">
+                    <a class="footer__link-github" href="https://github.com/seregov-sd">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__item footer__item-copyright">
+                    <span class="footer__copyright">2022 by Sergey Seregov</span>
+                </li>
+                <li class="footer__item footer__item-rsschool">
+                    <a class="footer__link-rsschool" href="https://rs.school/js/">
+                        <svg width="94" height="35" viewBox="0 0 553 200" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M285.4 62L311.7 60.3C312.3 64.6 313.4 67.8 315.2 70.1C318.1 73.7 322.1 75.5 327.4 75.5C331.3 75.5 334.4 74.6 336.5 72.7C338.5 71.2 339.7 68.8 339.7 66.3C339.7 63.9 338.6 61.6 336.7 60.1C334.7 58.3 330 56.5 322.6 54.9C310.5 52.2 301.8 48.6 296.7 44C291.6 39.7 288.7 33.4 288.9 26.7C288.9 22.1 290.3 17.5 292.9 13.7C295.9 9.4 300 6 304.9 4.1C310.2 1.80001 317.6 0.600006 326.9 0.600006C338.3 0.600006 347 2.70001 353 7C359 11.2 362.6 18 363.7 27.3L337.7 28.8C337 24.8 335.6 21.9 333.3 20C331 18.1 328 17.2 324.1 17.2C320.9 17.2 318.5 17.9 316.9 19.2C315.4 20.4 314.4 22.2 314.5 24.2C314.5 25.7 315.3 27.1 316.5 28C317.8 29.2 320.9 30.3 325.8 31.3C337.9 33.9 346.5 36.5 351.8 39.2C357.1 41.9 360.9 45.2 363.2 49.1C365.6 53.1 366.8 57.7 366.7 62.4C366.7 68 365.1 73.6 361.9 78.3C358.6 83.2 354 87 348.6 89.3C342.9 91.8 335.7 93.1 327.1 93.1C311.9 93.1 301.4 90.2 295.5 84.3C289.6 78.4 286.1 71 285.4 62ZM6.3 91.6V2.20001H52.4C60.9 2.20001 67.5 2.90001 72 4.4C76.4 5.8 80.3 8.7 82.9 12.6C85.8 16.9 87.2 21.9 87.1 27.1C87.4 35.9 82.9 44.3 75.2 48.7C72.2 50.4 68.9 51.6 65.5 52.2C68 52.9 70.5 54.1 72.7 55.5C74.4 56.9 75.8 58.5 77.1 60.2C78.6 61.9 79.9 63.8 81 65.8L94.4 91.7H63L48.2 64.2C46.3 60.7 44.7 58.4 43.2 57.3C41.2 55.9 38.8 55.2 36.4 55.2H34V91.5H6.3V91.6ZM34 38.4H45.7C48.2 38.2 50.6 37.8 53 37.2C54.8 36.9 56.4 35.9 57.5 34.4C60.2 30.8 59.8 25.7 56.5 22.6C54.7 21.1 51.2 20.3 46.2 20.3H34V38.4ZM0 168.2L26.3 166.5C26.9 170.8 28 174 29.8 176.3C32.6 179.9 36.7 181.8 42 181.8C45.9 181.8 49 180.9 51.1 179C53.1 177.4 54.3 175.1 54.3 172.6C54.3 170.2 53.2 167.9 51.3 166.4C49.3 164.6 44.6 162.8 37.1 161.2C25 158.5 16.3 154.9 11.2 150.3C6.1 146 3.2 139.7 3.4 133C3.4 128.4 4.8 123.8 7.4 120C10.4 115.7 14.5 112.3 19.4 110.4C24.7 108.1 32.1 106.9 41.4 106.9C52.8 106.9 61.5 109 67.5 113.3C73.5 117.6 77 124.3 78.1 133.6L52.1 135.1C51.4 131.1 50 128.2 47.7 126.3C45.5 124.4 42.4 123.5 38.5 123.6C35.3 123.6 32.9 124.3 31.3 125.7C29.7 126.9 28.8 128.7 28.9 130.7C28.9 132.2 29.7 133.6 30.9 134.5C32.2 135.7 35.3 136.8 40.2 137.8C52.3 140.4 60.9 143 66.2 145.7C71.5 148.4 75.3 151.7 77.6 155.6C80 159.6 81.2 164.2 81.2 168.8C81.2 174.4 79.5 179.9 76.4 184.6C73.1 189.5 68.5 193.3 63.1 195.6C57.4 198.1 50.2 199.4 41.6 199.4C26.4 199.4 15.9 196.5 10 190.6C4.1 184.6 0.8 177.2 0 168.2Z"
+                                  fill="white"/>
+                            <path d="M133 161.2L157.2 168.5C155.9 174.6 153.2 180.4 149.5 185.5C146.1 190 141.6 193.5 136.5 195.8C131.3 198.1 124.7 199.3 116.7 199.3C107 199.3 99 197.9 92.9 195.1C86.7 192.3 81.4 187.3 76.9 180.2C72.4 173.1 70.2 164 70.2 152.9C70.2 138.1 74.1 126.7 82 118.8C89.9 110.9 101 106.9 115.4 106.9C126.7 106.9 135.5 109.2 142 113.7C148.4 118.3 153.2 125.3 156.4 134.7L132 140.1C131.4 138 130.5 135.9 129.3 134.1C127.8 132 125.9 130.4 123.6 129.2C121.3 128 118.7 127.5 116.1 127.5C109.8 127.5 105 130 101.7 135.1C99.2 138.8 97.9 144.7 97.9 152.7C97.9 162.6 99.4 169.4 102.4 173.1C105.4 176.8 109.6 178.6 115.1 178.6C120.4 178.6 124.4 177.1 127.1 174.2C129.8 171.1 131.8 166.8 133 161.2ZM189.5 108.4H217.1V139.7H247.3V108.4H275.1V197.8H247.3V161.6H217.1V197.8H189.5V108.4Z"
+                                  fill="white"/>
+                            <path d="M271.3 153.1C271.3 138.5 275.4 127.1 283.5 119C291.6 110.9 303 106.8 317.5 106.8C332.4 106.8 343.8 110.8 351.9 118.8C360 126.8 364 138 364 152.4C364 162.9 362.2 171.4 358.7 178.1C355.3 184.7 350 190.1 343.5 193.7C336.8 197.4 328.5 199.3 318.6 199.3C308.5 199.3 300.2 197.7 293.6 194.5C286.8 191.1 281.2 185.8 277.5 179.3C273.4 172.3 271.3 163.6 271.3 153.1ZM298.9 153.2C298.9 162.2 300.6 168.7 303.9 172.7C307.2 176.6 311.8 178.6 317.6 178.6C323.5 178.6 328.1 176.7 331.4 172.8C334.7 168.9 336.3 162 336.3 152C336.3 143.6 334.6 137.4 331.2 133.6C327.8 129.7 323.2 127.8 317.4 127.8C312.3 127.6 307.4 129.8 304 133.7C300.6 137.6 298.9 144.1 298.9 153.2ZM392.3 153.1C392.3 138.5 396.4 127.1 404.5 119C412.6 110.9 424 106.8 438.5 106.8C453.4 106.8 464.9 110.8 472.9 118.8C480.9 126.8 485 138 485 152.4C485 162.9 483.2 171.4 479.7 178.1C476.3 184.7 471 190.1 464.5 193.7C457.8 197.4 449.5 199.3 439.6 199.3C429.5 199.3 421.2 197.7 414.6 194.5C407.8 191.1 402.2 185.8 398.5 179.3C394.4 172.3 392.3 163.6 392.3 153.1ZM419.9 153.2C419.9 162.2 421.6 168.7 424.9 172.7C428.2 176.6 432.8 178.6 438.6 178.6C444.5 178.6 449.1 176.7 452.4 172.8C455.7 168.9 457.3 162 457.3 152C457.3 143.6 455.6 137.4 452.2 133.6C448.8 129.7 444.2 127.8 438.4 127.8C433.3 127.6 428.3 129.8 425 133.7C421.6 137.6 419.9 144.1 419.9 153.2Z"
+                                  fill="white"/>
+                            <path d="M482.1 108.4H509.7V175.8H552.8V197.8H482V108.4H482.1Z" fill="white"/>
+                            <path d="M451.679 103.241C479.466 82.3007 488.035 46.804 470.817 23.9567C453.6 1.10933 417.117 -0.436877 389.329 20.5031C361.542 41.4431 352.973 76.9398 370.191 99.787C387.408 122.634 423.891 124.181 451.679 103.241Z"
+                                  stroke="white" stroke-width="10" stroke-miterlimit="10"/>
+                            <path d="M392.4 55.3L402.4 48.3L414.7 65.8C416.8 68.6 418.4 71.6 419.6 74.9C420.3 77.4 420.1 80.1 419.1 82.5C417.8 85.5 415.7 88 412.9 89.8C409.6 92.1 406.8 93.4 404.4 93.8C402.1 94.2 399.7 93.8 397.5 92.8C395.1 91.6 393 89.9 391.4 87.7L400 79.7C400.7 80.8 401.6 81.8 402.6 82.6C403.3 83.1 404.1 83.4 405 83.4C405.7 83.4 406.4 83.1 406.9 82.7C407.9 82.1 408.6 80.9 408.5 79.7C408.2 78 407.5 76.3 406.4 75L392.4 55.3ZM422.4 66.4L431.5 59.2C432.5 60.4 433.8 61.3 435.2 61.8C437.2 62.4 439.3 62 441 60.7C442.2 59.9 443.2 58.8 443.6 57.4C444.2 55.6 443.2 53.6 441.4 53C441.1 52.9 440.8 52.8 440.5 52.8C439.3 52.7 437.2 53.2 434.1 54.5C429 56.6 425 57.4 422 57.1C419.1 56.8 416.4 55.3 414.8 52.8C413.6 51.1 413 49.1 412.9 47.1C412.9 44.8 413.5 42.5 414.8 40.6C416.7 37.9 419 35.6 421.8 33.8C426 30.9 429.7 29.5 432.9 29.5C436.1 29.5 439.1 31 441.9 34.1L432.9 41.2C431.1 38.9 427.7 38.4 425.4 40.2L425.1 40.5C424.1 41.1 423.4 42 423 43.1C422.7 43.9 422.9 44.8 423.4 45.5C423.8 46 424.4 46.4 425.1 46.4C425.9 46.5 427.3 46.1 429.3 45.2C434.3 43.1 438.1 41.9 440.7 41.5C442.9 41.1 445.2 41.3 447.3 42.2C449.2 43 450.8 44.4 451.9 46.1C453.3 48.1 454.1 50.5 454.2 53C454.3 55.6 453.6 58.1 452.2 60.3C450.4 63 448.1 65.3 445.4 67.1C439.9 70.9 435.4 72.5 431.8 71.9C427.9 71.3 424.7 69.3 422.4 66.4Z"
+                                  fill="white"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
