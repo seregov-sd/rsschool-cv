@@ -5,3 +5,20 @@
 - **Location**: Gomel, Belarus
 - **Email**: seregov.sd@yandex.by
 - **GitHub**: [seregov-sd](https://github.com/seregov-sd)
+
+## About My ##
+
+I am currently in my fourth year of university with a degree
+in information technology. I like to study and learn something new.
+I aspire to be a full range developer. I like to learn: front-end,
+back-end and mobile development. I do not rest on my laurels,
+I bring any work to the end. I like to learn new ones and constantly support.
+
+## Skills ##
+
+- HTML, CSS, SCSS
+- JavaScript (Basic)
+- C, C++ (Basic)
+- Java (Basic)
+- VS Code, Intellij IDEA
+- Git
