@@ -32,3 +32,15 @@ public class Multiply {
     }
 }
 ```
+
+## Education ##
+
+- [University (Fourth year)](https://www.gsu.by/)
+- [CS50 Lectures](https://www.youtube.com/watch?v=Sy_wba7l1UU&list=PLawfWYMUziZqyUL5QDLVbe3j5BKWj42E5)
+- [HTML Academy](https://htmlacademy.ru/)
+- [It Class](https://itclass.by/software)
+
+## Languages ##
+
+- Russian - Native
+- English - A1
