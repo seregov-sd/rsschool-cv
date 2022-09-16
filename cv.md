@@ -22,3 +22,13 @@ I bring any work to the end. I like to learn new ones and constantly support.
 - Java (Basic)
 - VS Code, Intellij IDEA
 - Git
+
+## Code Example ##
+
+```
+public class Multiply {
+    public static Double multiply(Double a, Double b) {
+        return a * b;
+    }
+}
+```
